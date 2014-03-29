@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layLinInfo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blueLogo"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/marginBig"
+            android:background="@drawable/white_rectangle_grey_border"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="@dimen/marginMedium" >
+
+                <ImageView
+                    android:id="@+id/ivPhotoDetail"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:contentDescription="@null"
+                    android:padding="@dimen/marginSmall"
+                    android:src="@drawable/logo_tlp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:baselineAligned="false"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:baselineAligned="false"
+                        android:orientation="horizontal" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:padding="@dimen/marginMedium" >
+
+                            <TextView
+                                android:id="@+id/tvHeadName"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/headerName"
+                                android:textColor="@color/blueLogo"
+                                android:textSize="@dimen/textSizeMedium" />
+
+                            <View
+                                android:layout_width="200dp"
+                                android:layout_height="1dp"
+                                android:layout_marginTop="2dp"
+                                android:background="@color/blueLogo" />
+
+                            <TextView
+                                android:id="@+id/tvName"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/marginSmall"
+                                android:textSize="@dimen/textSizeMediumSmall" />
+
+                            <TextView
+                                android:id="@+id/tvHeadCompany"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/marginSmall"
+                                android:text="@string/headerSurname"
+                                android:textColor="@color/blueLogo"
+                                android:textSize="@dimen/textSizeMedium" />
+
+                            <View
+                                android:layout_width="200dp"
+                                android:layout_height="1dp"
+                                android:layout_marginTop="2dp"
+                                android:background="@color/blueLogo" />
+
+                            <TextView
+                                android:id="@+id/tvCompany"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/marginSmall"
+                                android:textSize="@dimen/textSizeMediumSmall" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:padding="@dimen/marginMedium" >
+
+                            <TextView
+                                android:id="@+id/tvHeadNick"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/headerNick"
+                                android:textColor="@color/blueLogo"
+                                android:textSize="@dimen/textSizeMedium" />
+
+                            <View
+                                android:layout_width="200dp"
+                                android:layout_height="1dp"
+                                android:layout_marginTop="2dp"
+                                android:background="@color/blueLogo" />
+
+                            <TextView
+                                android:id="@+id/tvNick"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/marginSmall"
+                                android:textSize="@dimen/textSizeMediumSmall" />
+
+                            <TextView
+                                android:id="@+id/tvHeadTag"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/marginSmall"
+                                android:text="@string/headerTag"
+                                android:textColor="@color/blueLogo"
+                                android:textSize="@dimen/textSizeMedium"
+                                android:visibility="gone" />
+
+                            <View
+                                android:layout_width="200dp"
+                                android:layout_height="1dp"
+                                android:layout_marginTop="2dp"
+                                android:background="@color/blueLogo"
+                                android:visibility="gone" />
+
+                            <TextView
+                                android:id="@+id/tvTag"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/marginSmall"
+                                android:textSize="@dimen/textSizeMediumSmall" 
+                                android:visibility="gone"/>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layLinCanPass"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@color/blueLogo"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvCanPass"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/canPass"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/textSizeBig" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tvHeadComment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/marginMedium"
+                        android:paddingLeft="@dimen/marginMedium"
+                        android:text="@string/headerComment"
+                        android:textColor="@color/blueLogo"
+                        android:textSize="@dimen/textSizeMedium" 
+                        android:visibility="gone"/>
+
+                    <View
+                        android:layout_width="200dp"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="@dimen/marginMedium"
+                        android:layout_marginTop="2dp"
+                        android:background="@color/blueLogo" 
+                        android:visibility="gone"/>
+
+                    <TextView
+                        android:id="@+id/tvComment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/marginSmall"
+                        android:paddingLeft="@dimen/marginMedium"
+                        android:textSize="@dimen/textSizeMediumSmall"
+                        android:visibility="gone" />
+                    
+                    <RelativeLayout 
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" 
+                        android:visibility="gone">
+                    
+	                    <Button
+	                     android:id="@+id/btMoreInfo"
+	                     android:layout_width="wrap_content"
+	                     android:padding="@dimen/marginMediumSmall"
+	                     android:layout_alignParentBottom="true"
+	                     android:layout_alignParentRight="true"
+	                     android:layout_height="wrap_content"
+	                     android:background="@drawable/blue_button_selector"
+	                     android:textColor="@android:color/white"
+	                     android:text="@string/buttonMoreInfo" />
+                    
+                    </RelativeLayout>
+                </LinearLayout>
+                
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layLinNoRfid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blueLogo"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:src="@drawable/logo_tlp_tenerife" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/marginBig"
+            android:background="@drawable/white_rectangle_grey_border"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/marginBig" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/headerReadRfid"
+                android:textSize="@dimen/textSizeMedium" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

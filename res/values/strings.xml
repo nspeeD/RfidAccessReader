@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tlp Access</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="wellcome">Bienvenido a TLP RFID Access</string>
+    <string name="hintUserName">Usuario</string>
+    <string name="hintUserPass">Contraseña</string>
+    <string name="headerReadRfid">Pasa la tarjeta de acceso por la pantalla para obtener mas información.</string>
+	<string name="headerName">Nombre</string>
+	<string name="headerSurname">Apellidos</string>
+    <string name="headerCompany">Organización</string>
+    <string name="headerNick">Nick</string>
+    <string name="headerTag">Tag</string>
+    <string name="headerComment">Comentarios</string>
+    <string name="canPass">Acceso Permitido</string>
+    <string name="cantPass">Acceso Denegado</string>
+    <string name="buttonMoreInfo">Mas información</string>
+	<string name="buttonContinue">Continuar</string>
+	<string name="buttonLoadData">Cargar Datos</string>
+	<string name="accept">Aceptar</string>
+	<string name="infoStartNfc">Por favor Activa el NFC y presiona Atras para volver a la aplicación!</string>
+	<string name="noDataFromSd">Parece que no hay usuarios en la app :(</string>
+	<string name="noValidUser">Ups! Va a ser que no</string>
+	<string name="atention">¡Atención!</string>
+	<string name="loadDataComplete">Se han cargado los datos.</string>
+	<string name="loadDataFail">No se han cargado los datos.</string>
+	<string name="loadingData">Cargando datos...</string>
+</resources>
